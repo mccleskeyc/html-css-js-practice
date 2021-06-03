@@ -17,3 +17,7 @@
 ## Component 4 - Page Theme Selector
 - Create a dropdown menu that selects and sets a theme for the page.
 - Covers link tags, HTML drop down menus, DOM manipulation
+
+## Component 5 - Gallery with Key Click
+- When you click on a key or the image, a new randomized image will appear.
+- Covers event listeners, key codes, DOM manipulation, and flexbox
