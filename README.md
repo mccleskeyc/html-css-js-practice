@@ -13,3 +13,7 @@
 ## Component 3 - Framed Image Loader
 - Create an image with a border that can be edited using a form. The inputs allow users to change the image url and the color/width of the border.
 - Covers HTML forms, event listeners, DOM manipulation
+
+## Component 4 - Page Theme Selector
+- Create a dropdown menu that selects and sets a theme for the page.
+- Covers link tags, HTML drop down menus, DOM manipulation
