@@ -1,7 +1,7 @@
 //selectors
 const urlInput = document.querySelector("input[name='url']");
 const colorInput = document.querySelector("input[name='color']");
-const widthInput = document.querySelector("input[name='widtch']");
+const widthInput = document.querySelector("input[name='width']");
 const image = document.querySelector(".image");
 
 //information variables (global)
@@ -31,11 +31,13 @@ urlInput.addEventListener("change", () => {
 })
 
 colorInput.addEventListener("change", () => {
-    url = colorInput.value;
+    color = colorInput.value;
     setImage(url, width, color);
 })
 
 widthInput.addEventListener("change", () => {
-    url = widthInput.value;
+    width = widthInput.value;
     setImage(url, width, color);
 })
+
+hideImageOnLoad();
